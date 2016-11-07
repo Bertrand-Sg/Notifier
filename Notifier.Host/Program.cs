@@ -9,9 +9,8 @@ namespace Notifier.Host
     {
         public static void Main(string[] args)
         {
-
+            Console.WriteLine("it works!");
+            Console.ReadKey();
         }
     }
 }
-
-
