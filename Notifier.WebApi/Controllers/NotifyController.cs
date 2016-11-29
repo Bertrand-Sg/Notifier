@@ -28,9 +28,9 @@ namespace Notifier.WebApi.Controllers
                 notifs.Add(new Notification()
                 {
                     Id = id,
-                    Message = $"Message #{id}",
+                    Message = "Message #" + id,
                     Category = (NotificationType) categoryId,
-                    Title = $"title #{id}"
+                    Title = "title #" + id
                 });
             }
 
